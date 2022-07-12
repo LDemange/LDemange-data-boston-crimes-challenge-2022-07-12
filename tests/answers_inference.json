@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "Le coefficient lineaire estimé correspondant au MEDIAN_AGE est 2252.7344153, superieur a 0, on en \ndéduit que le nombre de crimes augmente linéairement avec l age médian.\n",
+    "T_STAT": " Le t statstique associé à l'âge median est 1.820. Il est calculé selon la fomule :\nt =  (x-moy)/(sigma_echantillon/sqrt(N))\n",
+    "P_VALUE": " p-value signifie la probabilité qu il y ait une relation lineaire entre l'âge médian et le nombre d'incidents . Un intervalle de confiance de 2 sigma correspond à 95%, or t<2 donc ce test n est pas significatif à 95 % d intervalle de confiance.\n",
+    "INCREASE": " coefficient PERC_MARRIED_COUPLE_FAMILY = -2115.1839\nSi le pourcentage de couples mariés augment de 1 pourcent, le nombre d incident diminuerait de 2115.1839 (coefficient linéaire négatif).\n",
+    "LIMITATIONS": "\nR**2 = 0.899, ce qui est une valeur élevée et montre une relation linéaire entre le nombre d incidents et\nles paramètres du modèle. Cependant, une valeur élevée du coefficient R**2 ne traduit pas toujours un lien de cause à\neffet entre les variables.\n"
+}
